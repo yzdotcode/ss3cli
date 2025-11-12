@@ -12,7 +12,7 @@ A simple command-line interface for interacting with S3-compatible services. It 
 Install directly from a Git repository:
 
 ```bash
-pip install git+https://github.com/your-username/simple-s3-cli.git
+pip install git+https://github.com/yzdotcode/simple-s3-cli.git
 ```
 
 ## Configuration
@@ -27,7 +27,7 @@ The CLI loads credentials in the following order of precedence:
 
 You can create a configuration file to store profiles for different S3 services. By default, the CLI looks for `~/.s3/config`.
 
-See `config.ini.example` for the format.
+See [`config.ini.example`](config.ini.example) for the format.
 
 **Note:** This CLI is configured to use AWS Signature Version 4 (`s3v4`), which is required by most modern S3-compatible services.
 
