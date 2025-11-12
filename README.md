@@ -12,7 +12,7 @@ A simple command-line interface for interacting with S3-compatible services. It 
 Install directly from a Git repository:
 
 ```bash
-pip install git+https://github.com/yzdotcode/simple-s3-cli.git
+pip install git+https://github.com/yzdotcode/ss3cli.git
 ```
 
 ## Configuration
