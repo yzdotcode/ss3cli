@@ -1,0 +1,11 @@
+[default]
+endpoint_url = <your-s3-endpoint-url>
+aws_access_key_id = <your-access-key>
+aws_secret_access_key = <your-secret-key>
+region = <your-region>
+
+[another-profile]
+endpoint_url = <your-other-s3-endpoint-url>
+aws_access_key_id = <your-other-access-key>
+aws_secret_access_key = <your-other-secret-key>
+region = <your-other-region>
